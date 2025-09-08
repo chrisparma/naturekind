@@ -40,7 +40,7 @@
     "roots/wordpress": "^6.8",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.2.0",
-    "wpackagist-plugin/woocommerce": "^9.7",
+    "wpackagist-plugin/woocommerce": "^10.1",
     "wpackagist-plugin/yith-woocommerce-wishlist": "^4.3",
     "twbs/bootstrap-icons": "^1.11",
     "wpackagist-plugin/elementor": "^3.27",
