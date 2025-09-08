@@ -1,0 +1,150 @@
+.quantity {
+	// color: var(--bs-body-secondary-color);
+    margin-bottom: 1rem!important;
+	display: flex;
+	align-items: center;
+    background: var(--bs-img-bg-color);
+    border-radius: var(--bs-border-radius) !important;
+	overflow: hidden;
+    border: 7px solid #333;
+
+	.input-text.qty,
+	.qty-count {
+		display: inline-block;
+		min-width: 0;
+		height: 3.5rem;
+        // font-weight: bold;
+		// font-size: inherit;
+		line-height: 1;
+        // color: var(--bs-body-secondary-color);
+        // background: transparent;
+        border: none;
+		&:focus {
+			outline: none;
+		}
+	}
+
+	.input-text.qty {
+		display: display;
+        width: 7rem;
+		min-width: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        -webkit-font-smoothing: antialiased;
+		text-align: center;
+        color: #b19068;
+		appearance: textfield;	
+		
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			appearance: none;
+			margin: 0;
+		}
+	}
+
+	.qty-count {
+		padding: 0;
+		cursor: pointer;
+		width: 3.5rem;
+		font-size: 1.25em;
+		text-indent: -100px;
+		overflow: hidden;
+		position: relative;
+		background-color: #333;
+        transition: all ease-in-out .25s;
+        &:hover, &:active {
+            background-color: #b19068;
+            &:before, 
+            &:after {
+                background-color: var(--bs-gray-200);
+            }
+        }
+		&:before, 
+		&:after {
+			content: "";
+			height: 2px;
+			width: 10px;
+			position: absolute;
+			display: block;
+			background-color: var(--bs-gray-400);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		&--minus {
+			border-right: 1px solid var(--bs-body-bg-color);
+		}
+		&--add {
+			border-left: 1px solid var(--bs-body-bg-color);
+			&:after {
+				transform: rotate(90deg);
+			}
+		}
+		
+		&:disabled {
+			// color: $gray;
+			background-color: var(--bs-gray-500);
+			cursor: not-allowed;
+			border-color: transparent;
+			
+			&:before,
+			&:after {
+				background-color: var(--bs-gray-200);
+			}
+		}
+	}
+}
+.yith-wcwl-add-to-wishlist-button:not(.yith-wcwl-add-to-wishlist-button--themed-button).yith-wcwl-add-to-wishlist-button--added svg.yith-wcwl-add-to-wishlist-button-icon {
+    color: rgba(var(--bs-danger-rgb), .8);
+}
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) 
+.woocommerce a.button.alt, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce button.button.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce input.button.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce #respond input#submit.alt {
+    background-color: #333;
+    &:hover, &:active {
+        background-color: #b19068;
+    }
+}
+
+/**
+ * WooCommerce specific styles for legacy themes.
+ */
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) {
+	// .woocommerce-breadcrumb {
+	// 	font-size: 0.92em;
+	// 	color: $subtext;
+
+	// 	a {
+	// 		color: $subtext;
+	// 	}
+	// }
+
+	div.product {
+		span.price,
+		p.price {
+			color: #b19068;
+			font-size: 1.75em;
+            -webkit-font-smoothing: antialiased;
+		}
+
+		.stock {
+			color: #b19068;
+		}
+	}
+
+	ul.products li.product .price {
+		color: #b19068;
+	}
+
+	// #reviews #comments ol.commentlist li .meta {
+	// 	color: $subtext;
+	// 	font-size: 0.75em;
+	// }
+}
