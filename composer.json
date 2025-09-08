@@ -47,7 +47,8 @@
     "wpackagist-plugin/contact-form-7": "^6.0",
     "wpackagist-plugin/fluid-checkout": "^4.0",
     "wpackagist-plugin/woocommerce-payments": "^9.4",
-    "wpackagist-plugin/woocommerce-paypal-payments": "^3.0"
+    "wpackagist-plugin/woocommerce-paypal-payments": "^3.0",
+    "wpackagist-plugin/maintenance": "^4.18"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
