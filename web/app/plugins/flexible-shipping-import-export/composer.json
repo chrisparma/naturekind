@@ -1,0 +1,87 @@
+{
+  "name": "octolize-plugin/flexible-shipping-import-export",
+  "authors": [
+	{
+	  "name": "Grzegorz",
+	  "email": "grzegorz@flexibleshipping.com"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  	"WPDesk\\FS\\TableRate\\ImportExport\\": "src/"
+	},
+	"classmap": [
+	  "vendor_prefixed"
+	]
+  },
+  "autoload-dev": {
+	"classmap": [
+	  "tests/unit",
+	  "tests/integration"
+	]
+  },
+  "config": {
+	"sort-packages": true,
+	"platform": {
+	  "php": "7.4"
+	},
+	"gitlab-domains": ["gitlab.wpdesk.dev"],
+    "allow-plugins": {
+      "cweagans/composer-patches": true,
+      "kylekatarnls/update-helper": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "wpdesk/wp-codeception": true,
+      "wpdesk/wp-wpdesk-composer": true
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "wpdesk/wp-wpdesk-helper-override": "^1.1.0"
+  },
+  "require-dev": {
+    "10up/wp_mock": "*",
+    "league/csv": "^9.5",
+    "octolize/wp-octolize-tracker": "^1",
+    "octolize/wp-plugin-update-reminder": "^1.2",
+    "php-stubs/wordpress-stubs": "^5.8",
+    "phpunit/phpunit": "^7||^8||^9",
+    "wpdesk/wp-codeception": "^2.4",
+    "wpdesk/wp-plugin-flow-paid": "^1.0",
+    "wpdesk/wp-wpdesk-composer": "^3"
+  },
+  "extra": {
+	"text-domain": "flexible-shipping-import-export",
+	"translations-folder": "lang",
+	"translation-file-headers": {
+	  "Project-Id-Version": "Flexible Shipping Import Export",
+	  "Last-Translator": "Grzegorz Rola <grola@wpdesk.pl>",
+	  "X-Poedit-WPHeader": "flexible-shipping-import-export.php"
+	},
+	"po-files": {
+	  "pl_PL": "pl_PL.po"
+	},
+	"php-requires": "7.4",
+	"prefix_psr": true
+  },
+  "scripts": {
+	"test": "echo composer is alive",
+	"phpcs": "phpcs",
+	"phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+	"phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+	"docs": "apigen generate"
+  },
+  "repositories": {
+    "octolize": {
+      "type": "composer",
+      "url": "https://gitlab.wpdesk.dev/api/v4/group/wpdesk/-/packages/composer/"
+    },
+    "wpdesk": {
+      "type": "composer",
+      "url": "https://gitlab.wpdesk.dev/api/v4/group/wpdesk/-/packages/composer/"
+    }
+  },
+  "version": "1.5.11",
+  "type": "wordpress-plugin"
+}

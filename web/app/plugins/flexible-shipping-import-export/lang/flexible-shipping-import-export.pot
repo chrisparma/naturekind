@@ -1,0 +1,871 @@
+# Copyright (C) 2025 Octolize
+# This file is distributed under the same license as the Flexible Shipping Import/Export Add-on plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Shipping Import/Export Add-on 1.5.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-shipping-import-export\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-11T23:07:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: flexible-shipping-import-export\n"
+
+#. Plugin Name of the plugin
+#: flexible-shipping-import-export.php
+msgid "Flexible Shipping Import/Export Add-on"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: flexible-shipping-import-export.php
+msgid "https://octol.io/fsie-plugin-site"
+msgstr ""
+
+#. Description of the plugin
+#: flexible-shipping-import-export.php
+msgid "Use the CSV files to import or export your shipping methods. Edit, update, move or backup the ready configurations and shipping scenarios."
+msgstr ""
+
+#. Author of the plugin
+#: flexible-shipping-import-export.php
+msgid "Octolize"
+msgstr ""
+
+#. Author URI of the plugin
+#: flexible-shipping-import-export.php
+msgid "https://octol.io/fsie-author"
+msgstr ""
+
+#. Translators: error message.
+#: src/CSVDataParser.php:116
+msgid "Row %1$s: %2$s"
+msgstr ""
+
+#. Translators: method id, rules count.
+#: src/CSVDataParser.php:123
+msgid "Method ID: %1$s, contains %2$s rule."
+msgid_plural "Method ID: %1$s, contains %2$s rules."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: method id.
+#. Translators: field.
+#: src/CSVDataParser.php:190
+#: src/CSVDataParser.php:307
+msgid "missing %1$s"
+msgstr ""
+
+#. Translators: field.
+#. Translators: condition ID.
+#. Translators: field name.
+#: src/CSVDataParser.php:303
+#: src/CSVDataParser.php:422
+#: src/CSVDataParser.php:467
+msgid "invalid %1$s"
+msgstr ""
+
+#. Translators: cost number.
+#. Translators: condition number.
+#: src/CSVDataParser.php:376
+#: src/CSVDataParser.php:406
+msgid "duplicated %1$s"
+msgstr ""
+
+#. Translators: condition ID.
+#: src/CSVDataParser.php:418
+msgid "invalid %1$s: %2$s"
+msgstr ""
+
+#. Translators: content type.
+#: src/DataParserFactory.php:49
+msgid "Not supported data format: %1$s"
+msgstr ""
+
+#. Translators: Unsupported data format.
+#: src/ExportFactory.php:90
+msgid "Unsupported data format: %1$s"
+msgstr ""
+
+#: src/ExportFactory.php:114
+msgid "Not found shipping methods to export"
+msgstr ""
+
+#: src/ImportAjaxHandler.php:61
+msgid "Missing or invalid \"stage\" parameter!"
+msgstr ""
+
+#. Translators: zone id.
+#: src/ImportAjaxHandler.php:114
+msgid "Invalid zone id: %1$s"
+msgstr ""
+
+#. Translators: skipped.
+#: src/ImportAjaxHandler.php:132
+msgid "%1$s method skipped"
+msgid_plural "%1$s methods skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: all.
+#: src/ImportAjaxHandler.php:135
+msgid "%1$s method in import file"
+msgid_plural "%1$s methods in import file"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: created.
+#: src/ImportAjaxHandler.php:138
+msgid "%1$s method added"
+msgid_plural "%1$s methods added"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: updated.
+#: src/ImportAjaxHandler.php:144
+msgid "%1$s method updated"
+msgid_plural "%1$s methods updated"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: method title.
+#: src/ImportAjaxHandler.php:240
+msgid "Shipping method %1$s not found!"
+msgstr ""
+
+#. Translators: method id.
+#: src/ImportAjaxHandler.php:245
+msgid "Invalid shipping method type: %1$s"
+msgstr ""
+
+#: src/ImportAjaxHandler.php:278
+msgid "The import file does not contain shipping methods"
+msgstr ""
+
+#. Translators: method title, new line, rules count.
+#: src/ImportAjaxHandler.php:316
+msgid "%1$s shipping method (ID: %2$s) will be overwritten. Shipping method contains %3$s rule."
+msgid_plural "%1$s shipping method (ID: %2$s) will be overwritten. Shipping method contains %3$s rules."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Plugin.php:144
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:184
+msgid "Docs"
+msgstr ""
+
+#: src/Plugin.php:145
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:181
+msgid "Support"
+msgstr ""
+
+#. Translators: row number.
+#: src/ShippingMethodData.php:173
+msgid "%1$sRow %2$s: %3$s"
+msgstr ""
+
+#. Translators: unknown conditions rows.
+#: src/ShippingMethodData.php:178
+msgid "The shipping methods contains invalid data: %1$s"
+msgstr ""
+
+#. Translators: unknown conditions rows.
+#: src/ShippingMethodData.php:193
+msgid "The shipping methods from the selected CSV file contain the rules configured with %1$sFlexible Shipping PRO%2$s, %3$sFlexible Shipping Locations%4$s, in a different way or the CSV file is invalid. In order to import it, please install and/or activate the plugins you used to configure it originally. If the uploaded CSV file was modified manually, please ensure it doesn't contain any typos or syntax errors (%5$sline: %6$s%7$s) and try again."
+msgstr ""
+
+#: src/ShippingMethodsAjaxHandler.php:39
+msgid "Invalid zone"
+msgstr ""
+
+#. Translators: methods count.
+#: src/ShippingMethodsAjaxHandler.php:50
+msgid "We've detected %1$s Flexible Shipping method configured in this shipping zone."
+msgid_plural "We've detected %1$s Flexible Shipping methods configured in this shipping zone."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: instance ID, rules count.
+#: src/ShippingMethodsAjaxHandler.php:89
+msgid "Method ID: %1$s, %2$s rule configured"
+msgid_plural "Method ID: %1$s, %2$s rules configured"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/import-export-button-in-shipping-zone.php:8
+#: assets-src/import-export/js/components/ImportExportModal.js:98
+#: assets/js/import-export.js:2
+msgid "Flexible Shipping Import/Export"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeProReasonsFactory.php:22
+msgid "Can you let us know, what functionality you're looking for?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "I had difficulties configuring the plugin"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Sorry to hear that! We're certain that with a little help, configuring the plugin will be a breeze. Before you deactivate, try to find a solution in our %1$sdocumentation%2$s%3$s."
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid " or post a question on the %1$sforum%2$s"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "The plugin stopped working"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "We take any issues with our plugins very seriously. Try to find a reason in our %1$sdocumentation%2$s%3$s."
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid " or post the problem on the %1$sforum%2$s"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "I have found another plugin"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "That hurts a little bit, but we're tough! Can you let us know which plugin you are switching to?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Which plugin are you switching to?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "The plugin doesn't have the functionality I need"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Good news! There's a great chance that the functionality you need is already implemented in the PRO version of the plugin. %1$sContact us%2$s to receive a discount for %3$s. Also, can you describe what functionality you're looking for?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "We're sorry to hear that. Can you describe what functionality you're looking for?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "What functionality are you looking for?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "I'm moving my shop from WooCommerce to Shopify"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Switching to Shopify? We've got you covered! %1$sExplore our Shopify apps%2$s and see how they can help you make the most of your new platform!"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "I don't need the plugin anymore"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Sorry to hear that! Can you let us know why the plugin is not needed anymore?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Why is the plugin not needed anymore?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "I'm deactivating temporarily for debugging purposes"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Other reason"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Can you provide some details on the reason behind deactivation?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/DeactivationTracker/OctolizeReasonsFactory.php:36
+msgid "Please provide details"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/OptInNotice/views/html-notice.php:12
+msgid "Help us improve Octolize plugins' experience"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/OptInNotice/views/html-notice.php:15
+msgid "Hi %1$s, with your helping hand we can build effective solutions, launch the new features and shape better plugins experience. By agreeing to anonymously share non-sensitive %2$susage data%3$s of our plugins, you will help us develop them in the right direction. No personal data is tracked or stored and you can opt-out any time. Will you give the thumbs up to our efforts?"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-octolize-tracker/src/OptInNotice/views/html-notice.php:22
+msgid "Allow"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-plugin-update-reminder/src/ReminderData.php:65
+msgid "You're using an outdated version of %1$s plugin, which may cause serious compatibility issues with WooCommerce. %2$sUpdate immediately%3$s to avoid potential disruptions."
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-plugin-update-reminder/src/ReminderData.php:69
+msgid "You're using an older version of %1$s plugin that hasn't been tested with the latest WooCommerce versions. Please %2$supdate to the latest version%3$s to ensure smooth compatibility."
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-plugin-update-reminder/src/SiteHealthReminder.php:39
+msgid "You should update plugin"
+msgstr ""
+
+#: vendor_prefixed/octolize/wp-plugin-update-reminder/src/SiteHealthReminder.php:39
+msgid "Compatibility"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:188
+msgid "Settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Disabled"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Emergency"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Alert"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Critical"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Error"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Warning"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Notice"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Debug"
+msgstr ""
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:23
+msgid "Can not enable WP Desk Debug log! Cannot create directory %s or this directory is not writeable!"
+msgstr ""
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:36
+msgid "Can not enable WP Desk Debug log! Cannot create file %s!"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:32
+msgid "Plugin's API key has been successfully activated. You are now fully eligible to receive plugin updates and support."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:34
+msgid "Plugin's API key has been successfully activated, but your subscription has expired. In order to receive the upcoming updates and support please renew your subscription."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:37
+msgid "In order to receive the upcoming updates and support please enter the plugin's API key obtained after the purchase."
+msgstr ""
+
+#. Translators: my account link and docs link.
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:42
+msgid "You can find it in %1$sMy Account / API Keys%2$s tab. %3$sLearn more about activating the API key →%4$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:54
+msgid "Key: "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:66
+msgid "Deactivate license"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:74
+msgid "Renew subscription →"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:83
+msgid "Activate license"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form.php:76
+msgid "The action failed with an error: "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form.php:79
+msgid "Enter license key"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginExternalBlocking.php:33
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:81
+msgid "Error while connecting to remote server %s. Please contact your hosting provider or try again later. Errors:  "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:150
+msgid "Error while connecting to remote server %s. Please contact with your hosting provider. Cannot parse response. Response code: %s Message: %s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:152
+msgid "Error while connecting to remote server %s. Please contact with your hosting provider. Cannot parse response: %s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseActivation.php:132
+msgid "Connection failed to the Subscription Key API server. Try again later."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseActivation.php:141
+msgid "Plugin license activated. "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseDeactivation.php:31
+msgid "Plugin license deactivated. "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:27
+msgid "No WP Desk plugins found."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Subscription Status"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Subscription Data"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:56
+msgid "Deactivated"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:58
+msgid "Activated"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:14
+msgid "Key:"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:25
+msgid "Email:"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:41
+msgid "Activate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:47
+msgid "Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/licenses.php:27
+msgid "WP Desk Subscriptions"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/licenses.php:37
+msgid "Get your subscription keys <a href=\"%s\" target=\"_blank\">here</a>. You can activate/deactivate API keys <strong>unlimited times on different domains</strong> as long as you have an active subscription."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/LicensePage.php:41
+msgid "Subscriptions"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/WpUpgrader/SubscriptionHandler.php:72
+msgid "Your plugin subscription has expired. In order to update the plugin please %1$srenew your subscription%2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/WpUpgrader/SubscriptionHandler.php:75
+msgid "An active subscription API key is required to download the plugin updates. In order to update the plugin please %1$sactivate your API key%2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:12
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:14
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+msgid "The plugin broke my site"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:16
+msgid "I have found a better plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:16
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+msgid "What's the plugin's name?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:18
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:20
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:22
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:24
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+msgid "Other"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/DefaultReasonsFactory.php:24
+msgid "Please let us know how we can improve our plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/views/scripts.php:55
+msgid "Plugin deactivation"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/views/thickbox.php:23
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+msgid "You are deactivating %s plugin."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/views/thickbox.php:31
+msgid "Before you proceed, please take 30 seconds to let us know what brought you to this decision. Your answers are anonymous."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/views/thickbox.php:92
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/views/thickbox.php:99
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:126
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker-deactivation/src/WPDesk/Tracker/Deactivation/views/thickbox.php:102
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+msgid "Cancel"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:41
+msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:70
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+msgid "Enable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:75
+msgid "Disable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:23
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+msgid "Hey %s,"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:26
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:35
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+msgid "Allow & Continue &rarr;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:40
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+msgid "Skip"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:47
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+msgid "What permissions are being granted?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:56
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+msgid "Your Site Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+msgid "WP version, PHP info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:67
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+msgid "Plugin Usage"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:70
+msgid "Current settings and usage information of %1$s plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:78
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+msgid "Your Store Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:81
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+msgid "Anonymized and non-sensitive store usage information"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:91
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+msgid "Find out more &raquo;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+msgid "I found a better plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+msgid "Kindly tell us the reason so we can improve"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:176
+#: assets/js/import-export.js:2
+msgid "Export all the methods"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:186
+#: assets/js/import-export.js:2
+msgid "Export selected methods"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:192
+#: assets/js/import-export.js:2
+msgid "Collapse all"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:196
+#: assets/js/import-export.js:2
+msgid "Expand all"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:241
+#: assets-src/import-export/js/components/ImportModal.js:574
+#: assets/js/import-export.js:2
+msgid "Back to menu"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:248
+#: assets/js/import-export.js:2
+msgid "Proceed & export"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:258
+#: assets/js/import-export.js:2
+msgid "Add your first Flexible Shipping method"
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:290
+#: assets/js/import-export.js:2
+msgid "The selected shipping zone doesn't contain any exportable shipping methods. Please make sure you've selected the correct %1$sshipping zone%2$s or add a shipping method within before starting the export procedure."
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:308
+#: assets-src/import-export/js/components/ExportModal.js:357
+#: assets/js/import-export.js:2
+msgid "%1$sError%2$s: "
+msgstr ""
+
+#: assets-src/import-export/js/components/ExportModal.js:460
+#: assets/js/import-export.js:2
+msgid "Exporting the Flexible Shipping methods"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportActionDescription.js:69
+#: assets/js/import-export.js:2
+msgid "The shipping method will be added within this shipping zone."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportActionDescription.js:72
+#: assets/js/import-export.js:2
+msgid "The shipping method will not be imported"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportActionSelect.js:70
+#: assets/js/import-export.js:2
+msgid "Create new shipping method"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportActionSelect.js:71
+#: assets/js/import-export.js:2
+msgid "Don't import (ignore)"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportActionSelect.js:74
+#: assets/js/import-export.js:2
+msgid "Update: "
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportActionSelect.js:81
+#: assets/js/import-export.js:2
+msgid "Enable shipping method"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportExportModal.js:103
+#: assets/js/import-export.js:2
+msgid "Export and import freely your Flexible Shipping methods within the shipping zones in your WooCommerce store."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportExportModal.js:111
+#: assets/js/import-export.js:2
+msgid "Export"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportExportModal.js:113
+#: assets/js/import-export.js:2
+msgid "Export the already configured Flexible Shipping methods to .csv file."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportExportModal.js:121
+#: assets/js/import-export.js:2
+msgid "Import"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportExportModal.js:123
+#: assets/js/import-export.js:2
+msgid "Import the ready Flexible Shipping methods configuration from the .csv file to your shop."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:138
+#: assets-src/import-export/js/components/ImportModal.js:343
+#: assets/js/import-export.js:2
+msgid "%1$sError!%2$s The selected file doesn't contain the proper data structure. Please make sure you've selected the correct file or export your shipping methods once again.%3$sDetails: "
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:233
+#: assets/js/import-export.js:2
+msgid "Click to select the .csv file you want to upload or simply drag & drop it here."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:299
+#: assets-src/import-export/js/components/ImportModal.js:385
+#: assets-src/import-export/js/components/ImportModal.js:418
+#: assets/js/import-export.js:2
+msgid "Importing file: "
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:315
+#: assets/js/import-export.js:2
+msgid " I confirm I've been warned about the risk associated with overwriting the current settings during the shipping methods import procedure, I'm fully aware of its further possible consequences and I wish to continue."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:450
+#: assets/js/import-export.js:2
+msgid "Import final report:"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:506
+#: assets/js/import-export.js:2
+msgid "Import the previously configured Flexible Shipping methods including all their shipping cost calculation rules from the saved .csv file."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:512
+#: assets/js/import-export.js:2
+msgid "We've noticed that you decided to update some of the mapped shipping methods. Please mind that once their current configuration is overwritten it cannot be restored later."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:515
+#: assets/js/import-export.js:2
+msgid "The FS shipping methods have been successfully imported."
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:545
+#: assets/js/import-export.js:2
+msgid "Importing the Flexible Shipping methods"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:564
+#: assets/js/import-export.js:2
+msgid "Go back and change the settings →"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:568
+#: assets/js/import-export.js:2
+msgid "Upload the .csv file again"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:578
+#: assets-src/import-export/js/components/ImportModal.js:582
+#: assets/js/import-export.js:2
+msgid "Proceed and import"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportModal.js:586
+#: assets/js/import-export.js:2
+msgid "Refresh and go to the shipping zone"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportShippingMethodsConfirmation.js:49
+#: assets-src/import-export/js/components/ImportShippingMethodsMapping.js:143
+#: assets/js/import-export.js:2
+msgid "Method title not set"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportShippingMethodsMapping.js:133
+#: assets/js/import-export.js:2
+msgid "Shipping method from file"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportShippingMethodsMapping.js:134
+#: assets/js/import-export.js:2
+msgid "Action"
+msgstr ""
+
+#: assets-src/import-export/js/components/ImportShippingMethodsMapping.js:204
+#: assets/js/import-export.js:2
+msgid "Enable all new shipping methods"
+msgstr ""
+
+#: assets-src/import-export/js/index.js:32
+#: assets/js/import-export.js:2
+msgid "Please save Shipping Zone settings first!"
+msgstr ""
