@@ -51,7 +51,8 @@
     "wpackagist-plugin/maintenance": "^4.18",
     "wpackagist-plugin/wpc-variation-duplicator": "^1.1",
     "wpackagist-plugin/sellbrite": "^1.0",
-    "wpackagist-plugin/flexible-shipping": "^6.4"
+    "wpackagist-plugin/flexible-shipping": "^6.4",
+    "wpackagist-plugin/litespeed-cache": "^7.5"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
