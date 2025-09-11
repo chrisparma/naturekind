@@ -9,7 +9,7 @@
     
         $args = [
             'post_type'      => 'product',
-            'posts_per_page' => intval($atts['number']),
+            'posts_per_page' => get_option('posts_per_page'),//intval($atts['number']),
             'orderby'        => 'date', // Default ordering
             'order'          => 'DESC',
         ];
