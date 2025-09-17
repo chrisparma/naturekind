@@ -574,3 +574,10 @@ span {
     border-color: var(--bs-primary);
   }
 }
+.yith-wcwl-add-to-wishlist-button {
+  &:not(.yith-wcwl-add-to-wishlist-button--themed-button) {
+    svg.yith-wcwl-add-to-wishlist-button-icon {
+      color: rgba(#b19068, var(--bs-link-opacity, 1));
+    }
+  }
+}

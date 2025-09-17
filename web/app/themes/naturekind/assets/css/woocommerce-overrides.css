@@ -490,4 +490,8 @@ span.product-badge-wrapper .low-stock {
   pointer-events: none;
   background-color: var(--bs-primary);
   border-color: var(--bs-primary);
+}
+
+.yith-wcwl-add-to-wishlist-button:not(.yith-wcwl-add-to-wishlist-button--themed-button) svg.yith-wcwl-add-to-wishlist-button-icon {
+  color: rgba(177, 144, 104, var(--bs-link-opacity, 1));
 }/*# sourceMappingURL=woocommerce-overrides.css.map */
