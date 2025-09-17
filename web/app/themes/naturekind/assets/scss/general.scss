@@ -833,3 +833,9 @@ input[type="checkbox"] {
     }
   }
 }
+
+#newsletter-container {
+  .elementor-field-group.elementor-field-type-submit {
+    align-items: flex-start;
+  }
+}

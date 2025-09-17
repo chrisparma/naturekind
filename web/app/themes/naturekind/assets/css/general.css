@@ -698,4 +698,8 @@ input[type=checkbox] {
   .section-products-header .e-con-inner {
     flex-wrap: unset !important;
   }
+}
+
+#newsletter-container .elementor-field-group.elementor-field-type-submit {
+  align-items: flex-start;
 }/*# sourceMappingURL=general.css.map */
