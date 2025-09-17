@@ -131,7 +131,8 @@
 }
 
 .post-type-archive-product span.product-badge-wrapper,
-.related span.product-badge-wrapper {
+.related span.product-badge-wrapper,
+.elementor-shortcode span.product-badge-wrapper {
   position: absolute;
   top: 1rem;
   right: 0.75rem;
