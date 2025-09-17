@@ -130,12 +130,26 @@
   color: #b19068;
 }
 
-span.product-badge-wrapper {
+.post-type-archive-product span.product-badge-wrapper {
   position: absolute;
   top: 1rem;
   right: 0.75rem;
   z-index: 1;
 }
+
+.single-product span.product-badge-wrapper {
+  display: block;
+  min-height: 24px;
+  margin-bottom: 0.5rem;
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .single-product span.product-badge-wrapper {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+
 span.product-badge-wrapper .product-badge {
   display: inline-block;
   padding: 0.25em 0.5em;

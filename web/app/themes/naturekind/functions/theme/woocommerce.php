@@ -4,6 +4,8 @@
 
     // Add custom badges
     add_action( 'woocommerce_before_shop_loop_item_title', 'add_custom_product_badges', 10 );
+    // Add custom badges before short description
+    add_action( 'woocommerce_single_product_summary', 'add_custom_product_badges', 1 );
 
     function add_custom_product_badges() {
         global $product;
@@ -33,8 +35,8 @@
         }
 
         // Output the badges
-        if ( $badges ) {
+        // if ( $badges ) {
             echo '<span class="product-badge-wrapper" aria-hidden="true">' . $badges . '</span>';
-        }
+        // }
     }
 
