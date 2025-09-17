@@ -149,7 +149,7 @@
 	// }
 }
 
-.post-type-archive-product {
+.post-type-archive-product, .related {
 	span {
 		&.product-badge-wrapper {
 			position: absolute;
@@ -198,3 +198,34 @@ span {
 		}
 	}
 } 
+
+.woocommerce-page {
+	&.single-product {
+		div.product {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			div {
+				&.images {
+					float: none;
+				}
+
+				&.summary {
+					float: none;
+				}
+			}
+			section {
+				&.related {
+					padding: 4rem 0;
+					ul {
+						&.products {
+							&:before {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -130,7 +130,7 @@
   color: #b19068;
 }
 
-.post-type-archive-product span.product-badge-wrapper {
+.post-type-archive-product span.product-badge-wrapper, .related span.product-badge-wrapper {
   position: absolute;
   top: 1rem;
   right: 0.75rem;
@@ -170,4 +170,22 @@ span.product-badge-wrapper .new {
 span.product-badge-wrapper .low-stock {
   background-color: var(--bs-yellow);
   color: var(--bs-body-bg-color);
+}
+
+.woocommerce-page.single-product div.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.woocommerce-page.single-product div.product div.images {
+  float: none;
+}
+.woocommerce-page.single-product div.product div.summary {
+  float: none;
+}
+.woocommerce-page.single-product div.product section.related {
+  padding: 4rem 0;
+}
+.woocommerce-page.single-product div.product section.related ul.products:before {
+  display: none;
 }/*# sourceMappingURL=woocommerce-overrides.css.map */
