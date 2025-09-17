@@ -483,8 +483,8 @@ input[type=checkbox] {
 }
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button:hover,
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-button:hover {
-  background-color: #0257d5;
-  border-color: #0253cb;
+  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
+  border-color: rgb(1.6786885246, 83.0950819672, 203.1213114754);
   color: #fff;
 }
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button:focus,
@@ -839,8 +839,8 @@ input[type=checkbox] {
 :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce a.button:hover,
 :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce button.button:hover,
 :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce input.button:hover {
-  background-color: #0257d5;
-  border-color: #0253cb;
+  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
+  border-color: rgb(1.6786885246, 83.0950819672, 203.1213114754);
   color: #fff;
 }
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit:focus,
