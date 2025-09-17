@@ -2,6 +2,7 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 !web/app/plugins/flexible-shipping-import-export
+!web/app/plugins/elementor-pro
 web/app/mu-plugins/*/
 !web/app/themes/naturekind/
 web/app/themes/twentytwentyfive/
