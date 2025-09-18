@@ -40,13 +40,6 @@
         // }
     }
 
-    add_filter( 'woocommerce_email_styles', function( $css ) {
-        $css .= '
-            .email-masthead img {
-                width: 100%!important;
-                max-width: 300px !important; /* adjust size */
-                height: auto !important;
-            }
-        ';
-        return $css;
-    });
+add_filter( 'woocommerce_email_header_image', function( $image ) {
+    return str_replace( '<img', '<img style="width:280px; height:auto;"', $image );
+});
