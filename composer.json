@@ -52,7 +52,8 @@
     "wpackagist-plugin/wpc-variation-duplicator": "^1.1",
     "wpackagist-plugin/sellbrite": "^1.0",
     "wpackagist-plugin/flexible-shipping": "^6.4",
-    "wpackagist-plugin/litespeed-cache": "^7.5"
+    "wpackagist-plugin/litespeed-cache": "^7.5",
+    "wpackagist-plugin/bit-integrations": "^2.6"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
