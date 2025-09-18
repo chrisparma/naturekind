@@ -43,3 +43,13 @@
 add_filter( 'woocommerce_email_header_image', function( $image ) {
     return str_replace( '<img', '<img style="width:280px; height:auto;"', $image );
 });
+
+add_filter( 'woocommerce_email_styles', function( $css ) {
+    $css .= '
+        .wc-block-components-image img {
+            max-width: 280px !important;
+            height: auto !important;
+        }
+    ';
+    return $css;
+});
