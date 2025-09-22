@@ -241,13 +241,13 @@ span {
 				&.related {
 					padding: 4rem 0;
 
-					ul {
-						&.products {
-							&:before {
-								display: none;
-							}
-						}
-					}
+					// ul {
+					// 	&.products {
+					// 		&:before {
+					// 			display: none;
+					// 		}
+					// 	}
+					// }
 				}
 			}
 		}
@@ -581,4 +581,12 @@ span {
       color: rgba(#b19068, var(--bs-link-opacity, 1));
     }
   }
+}
+
+ul {
+	&.products {
+		&:before {
+			display: none!important;
+		}
+	}
 }

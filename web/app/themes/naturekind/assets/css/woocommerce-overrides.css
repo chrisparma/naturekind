@@ -188,9 +188,6 @@ span.product-badge-wrapper .low-stock {
 .woocommerce-page.single-product div.product section.related {
   padding: 4rem 0;
 }
-.woocommerce-page.single-product div.product section.related ul.products:before {
-  display: none;
-}
 
 .woocommerce .wishlist_table .product-stock-status span.wishlist-in-stock,
 .elementor-shortcode .wishlist_table .product-stock-status span.wishlist-in-stock {
@@ -495,4 +492,8 @@ span.product-badge-wrapper .low-stock {
 
 .yith-wcwl-add-to-wishlist-button:not(.yith-wcwl-add-to-wishlist-button--themed-button) svg.yith-wcwl-add-to-wishlist-button-icon {
   color: rgba(177, 144, 104, var(--bs-link-opacity, 1));
+}
+
+ul.products:before {
+  display: none !important;
 }/*# sourceMappingURL=woocommerce-overrides.css.map */
