@@ -590,3 +590,10 @@ ul {
 		}
 	}
 }
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	float: none!important;
+	margin: unset!important;
+	width: auto!important;
+	margin-left: unset!important;
+}

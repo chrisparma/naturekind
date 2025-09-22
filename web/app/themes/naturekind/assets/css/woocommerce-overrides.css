@@ -496,4 +496,11 @@ span.product-badge-wrapper .low-stock {
 
 ul.products:before {
   display: none !important;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  float: none !important;
+  margin: unset !important;
+  width: auto !important;
+  margin-left: unset !important;
 }/*# sourceMappingURL=woocommerce-overrides.css.map */
