@@ -18,7 +18,7 @@
 
                 <!-- Cart Icon with Badge -->
                 <a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="position-relative header-links cart-icon">
-                    <i class="fa-light fa-bag-shopping"></i>
+                    <i class="bi bi-bag"></i>
                     <?php $cart_count = WC()->cart->get_cart_contents_count(); ?>
                     <?php if ($cart_count > 0) : ?>
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
