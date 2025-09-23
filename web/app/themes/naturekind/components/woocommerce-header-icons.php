@@ -6,7 +6,7 @@
             <div class="woocommerce-icons left-right-col-wrapper d-flex align-items-center gap-3">
                 <!-- Account Icon -->
                 <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>" class="hidden-sm header-links account-icon">
-                    <i class="bi bi-person"></i>
+                    <i class="fa-light fa-user"></i>
                 </a>
 
                 <!-- Wishlist Icon (Requires a wishlist plugin like YITH Wishlist) -->
@@ -18,7 +18,7 @@
 
                 <!-- Cart Icon with Badge -->
                 <a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="position-relative header-links cart-icon">
-                    <i class="bi bi-bag"></i>
+                    <i class="fa-light fa-bag-shopping"></i>
                     <?php $cart_count = WC()->cart->get_cart_contents_count(); ?>
                     <?php if ($cart_count > 0) : ?>
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">

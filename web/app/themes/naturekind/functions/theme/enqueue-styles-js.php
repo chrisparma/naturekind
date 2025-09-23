@@ -14,6 +14,7 @@
         // wp_enqueue_style( 'select2-css', 'https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css' );
         wp_enqueue_style( 'general', get_theme_file_uri( '/assets/css/general.min.css' ), array(), $theme_version, 'all' );
         wp_enqueue_style( 'woocommerce-overrides', get_theme_file_uri( '/assets/css/woocommerce-overrides.min.css' ), array(), $theme_version, 'all' );
+        wp_enqueue_style( 'font-awesome5', get_theme_file_uri( '/assets/fonts/font-awesome/css/all.css' ), array(), $theme_version, 'all' );
         wp_enqueue_style( 'style', get_theme_file_uri( 'style.css' ), array(), $theme_version, 'all' );
         wp_enqueue_style( 'main', get_theme_file_uri( 'build/main.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
     
