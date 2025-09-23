@@ -130,6 +130,7 @@
   color: #b19068;
 }
 
+.archive span.product-badge-wrapper,
 .post-type-archive-product span.product-badge-wrapper,
 .related span.product-badge-wrapper,
 .elementor-shortcode span.product-badge-wrapper {
