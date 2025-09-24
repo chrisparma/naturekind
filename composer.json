@@ -54,7 +54,8 @@
     "wpackagist-plugin/flexible-shipping": "^6.4",
     "wpackagist-plugin/litespeed-cache": "^7.5",
     "wpackagist-plugin/bit-integrations": "^2.6",
-    "wpackagist-plugin/wp-smtp": "^2.2"
+    "wpackagist-plugin/wp-smtp": "^2.2",
+    "wpackagist-plugin/instagram-feed": "^6.9"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
