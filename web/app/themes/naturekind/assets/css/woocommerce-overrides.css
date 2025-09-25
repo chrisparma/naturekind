@@ -46,7 +46,7 @@
   transition: all ease-in-out 0.25s;
 }
 .quantity .qty-count:hover, .quantity .qty-count:active {
-  background-color: #b19068;
+  background-color: #988968;
 }
 .quantity .qty-count:hover:before, .quantity .qty-count:hover:after, .quantity .qty-count:active:before, .quantity .qty-count:active:after {
   background-color: var(--bs-gray-200);
@@ -111,7 +111,7 @@
 :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce input.button.alt:active,
 :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce #respond input#submit.alt:hover,
 :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce #respond input#submit.alt:active {
-  background-color: #b19068;
+  background-color: #988968;
 }
 
 /**
@@ -380,7 +380,7 @@ span.product-badge-wrapper .low-stock {
 }
 .woocommerce .products li.product .button:hover,
 .elementor-shortcode .products li.product .button:hover {
-  background: #b19068;
+  background: #988968;
 }
 .woocommerce .wc-tabs-wrapper,
 .elementor-shortcode .wc-tabs-wrapper {
