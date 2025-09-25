@@ -469,12 +469,12 @@ input[type=checkbox] {
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button,
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-button {
   color: var(--bs-btn-color, #fff);
-  background-color: var(--bs-primary, #0d6efd);
-  border-color: var(--bs-primary, #0d6efd);
+  background-color: #988968;
+  border-color: #8B7143;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.375rem;
+  border-radius: 0.5rem;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -483,8 +483,8 @@ input[type=checkbox] {
 }
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button:hover,
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-button:hover {
-  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
-  border-color: rgb(1.6786885246, 83.0950819672, 203.1213114754);
+  background-color: #8B7143;
+  border-color: #8B7143;
   color: #fff;
 }
 .woocommerce-page .wc-block-components-sidebar-layout .wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button:focus,
