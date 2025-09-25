@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   background: var(--bs-img-bg-color);
-  border-radius: var(--bs-border-radius) !important;
+  border-radius: 0.5rem !important;
   overflow: hidden;
   border: 7px solid #333;
 }
@@ -161,7 +161,7 @@ span.product-badge-wrapper .product-badge {
   font-weight: bold;
   text-transform: uppercase;
   color: var(--bs-gray-200);
-  border-radius: var(--bs-border-radius);
+  border-radius: 0.5rem;
   -webkit-font-smoothing: antialiased;
 }
 span.product-badge-wrapper .onsale {
@@ -312,7 +312,7 @@ span.product-badge-wrapper .low-stock {
 .woocommerce .products li.product .product-inner-wrapper,
 .elementor-shortcode .products li.product .product-inner-wrapper {
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 @media (min-width: 1180px) {
@@ -372,7 +372,7 @@ span.product-badge-wrapper .low-stock {
   text-align: center;
   background: #333333;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -444,7 +444,7 @@ span.product-badge-wrapper .low-stock {
   font-weight: 400;
   text-transform: capitalize;
   line-height: 1.5;
-  border-radius: 0.375rem;
+  border-radius: 0.5rem;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
