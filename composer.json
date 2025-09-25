@@ -55,7 +55,8 @@
     "wpackagist-plugin/litespeed-cache": "^7.5",
     "wpackagist-plugin/bit-integrations": "^2.6",
     "wpackagist-plugin/wp-smtp": "^2.2",
-    "wpackagist-plugin/instagram-feed": "^6.9"
+    "wpackagist-plugin/instagram-feed": "^6.9",
+    "wpackagist-plugin/wordpress-seo": "^26.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
