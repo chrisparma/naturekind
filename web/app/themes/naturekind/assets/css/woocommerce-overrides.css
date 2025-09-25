@@ -373,7 +373,7 @@ span.product-badge-wrapper .low-stock {
   background: #333333;
   color: #fff;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   transition: all 0.3s ease;
